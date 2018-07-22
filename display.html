@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>测试css display属性</title>
+	<style type="text/css">
+		.inline p {
+			display: inline;
+		}
+		.block span {
+			display: block;
+		}
+		.inline-block span {
+			display: inline-block;
+		}
+		.list-item span {
+			display: list-item;
+		}
+		.table span {
+			display: table;
+		}
+		.flex span {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+
+<!--inline内联样式-->
+<div class="inline">
+	<h3>inline内联样式</h3>
+	<p>第一个段落</p>
+	<p>第二个段落</p>
+	<p>第三个段落</p>
+</div>
+
+<!-- block -->
+<div class="block">
+	<h3>block</h3>
+	<span>第一段文字内容</span>
+	<span>第二段文字内容</span>
+	<span>第三段文字内容</span>
+</div>
+
+<!-- inline-block -->
+<div class="inlin-block">
+	<h3>inline-block</h3>
+	<span>第一段文字内容</span>
+	<span>第二段文字内容</span>
+	<span>第三段文字内容</span>
+</div>
+
+<!-- list-item -->
+<div class="list-item">
+	<h3>list-item</h3>
+	<span>第一段文字内容</span>
+	<span>第二段文字内容</span>
+	<span>第三段文字内容</span>
+</div>
+
+<!-- table -->
+<div class="table">
+	<h3>table</h3>
+	<span>第一段文字内容</span>
+	<span>第二段文字内容</span>
+	<span>第三段文字内容</span>
+</div>
+
+<!--flex弹性布局-->
+<div class="flex">
+	<h3>flex</h3>
+	<span>第一段文字内容</span>
+	<span>第二段文字内容</span>
+	<span>第三段文字内容</span>
+</div>
+</body>
+</html>

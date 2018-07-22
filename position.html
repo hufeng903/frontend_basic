@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css position属性demo</title>
+	<style type="text/css">
+		.absolute span{
+			position: absolute;
+			left: 100px;
+			top: 200px;
+			width: 200px;
+			height: 300px;
+			background:#54D32BFF
+		}
+		.relative_absolute {
+			position: relative;
+			left: 100px;
+			top: 20px;
+			width: 400px;
+			height: 700px;
+			background: #AE3EC0FF
+		}
+		.static {
+			position: static;
+			width: 200px;
+			height: 400px;
+			background: #2E90D0FF;
+			z-index:1;
+		}
+
+		.fixed {
+			position: fixed;
+			width: 300px;
+			height: 300px;
+			background: #12EC38FF;
+			top: 50px;
+			right: 50px;
+		}
+		.relative {
+			position: relative;
+			width: 400px;
+			height: 400px;
+			left: 300px;
+			background: #E01E47FF
+		}
+		.sticky {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			padding: 5px;
+			background-color: #cae8ca;
+			border: 2px solid #4CAF50;
+		}
+	</style>
+</head>
+<body>
+
+<!--absolute-->	
+<div class="relative_absolute">
+	<div class="absolute">
+	<span>这是绝对定位内容</span>
+	<p>生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。绝对定位的元素的位置相对于最近的已定位父元素，如果元素没有已定位的父元素，那么它的位置相对于html </p>
+</div>
+</div>
+
+<!--static-->
+<div class="static">
+	<span>这是静态定位内容</span>
+	<p>HTML元素的默认值，即没有定位，元素出现在正常的流中。静态定位的元素不会受到 top, bottom, left, right影响。</p>
+</div>
+
+<!--fixed-->
+<div class="fixed">
+	<span>这是fixed定位内容</span>
+	<p>生成固定定位的元素，相对于浏览器窗口进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。</p>
+</div>
+
+<!--relative-->
+<div class="relative">
+	<span>这是relative定位内容</span>
+	<p>生成相对定位的元素，相对于其正常位置进行定位。因此，"left:20" 会向元素的 LEFT 位置添加 20 像素。</p>
+</div>
+
+<!--sticky-->
+<div class="sticky">
+	<p>注意: IE/Edge 15 及更早 IE 版本不支持 sticky 属性。</p>
+
+	<div class="sticky">我是粘性定位!</div>
+
+	<div style="padding-bottom:2000px">
+	  <p>滚动我</p>
+	  <p>来回滚动我</p>
+	  <p>滚动我</p>
+	  <p>来回滚动我</p>
+	  <p>滚动我</p>
+	  <p>来回滚动我</p>
+	</div>
+</div>
+</body>
+</html>
