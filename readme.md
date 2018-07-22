@@ -1,6 +1,6 @@
 ## 项目介绍
 
->主要存的是一些前端样式，和布局内容
+>主要放的是平时工作中，使用到的，或者学习的一些前端样式，和布局内容整理。
 
 1. display.html是css 中display使用的实例
 2. position.html 是css中position属性使用的实例
