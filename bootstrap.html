@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>learn bootstrap</title>
+
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+	    <!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		
+		<link href = "bootstrap-switch.css" rel="stylesheet">
+
+		<!-- 可选的Bootstrap主题文件（一般不使用） -->
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+   </head>
+   
+   <body>
+   
+   <div><a href="http://erp.medsci.local/contract/v1/contract/download?file_name=test&contract_uuid=0fdf9640-e881-11e7-b87f-7d475af52bf6" target="_blank">下载文件</a></div>
+	<div class="btn-group">
+         <button type="button" data-switch-set="size" data-switch-value="mini" class="btn btn-default">Mini</button>
+              <button type="button" data-switch-set="size" data-switch-value="small" class="btn btn-default">Small</button>
+              <button type="button" data-switch-set="size" data-switch-value="normal" class="btn btn-default">Normal</button>
+              <button type="button" data-switch-set="size" data-switch-value="large" class="btn btn-default">Large</button>
+              <button type="button" data-switch-get="size" class="btn btn-default">Get</button>     
+    </div>   
+   
+	<div class="container">
+
+    <h1>标题：</h1>
+    <h1>Hello, World! <small> Subtitle</small></h1>
+    <p class="lead">这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。</p>
+    <h2>Hello, World!</h2>
+    <h3>Hello, World! <small> Subtitle</small></h2>
+    <h4>Hello, World!</h2>
+    <h5>Hello, World! <small> Subtitle</small></h2>
+    <h6>Hello, World!</h2>
+
+    <h1>字体样式：</h1>
+    <small>Small 样式</small><br>
+    <strong>Strong 样式</strong><br>
+    <em>em 样式</em><br>
+
+    <h1>文字位置：</h1>
+    <p class="text-center">中间文字</p>
+    <p class="text-left">左边文字</p>
+    <p class="text-right">右边文字</p>
+    <p class="text-mute">减弱文字</p>
+    <p class="text-primary">primary样式</p>
+    <p class="text-info">info样式</p>
+    <p class="text-success">success样式</p>
+    <p class="text-danger">danger样式</p>
+    
+    <h1>缩写，地址角标，引用，内联元素，代码块</h1>
+    <abbr title="World Wide Web">WWW</abbr><br>
+    <abbr title="Real Simple Syndication">RSS</abbr><br>
+    <address>
+        <strong>feng.hu</strong><br>
+        <a href="mailto:hu-feng@hotmail.com">hu-feng@hotmail.com</a>
+    </address><br>
+    <blockquote>
+        <p>
+            这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。
+        </p>
+        <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+    </blockquote>
+    <p><code></code>&lt;header&gt;作为内联元素</p>
+    <pre>
+        &lt;article&gt;
+           &lt;h1&gt;Article Heading;/h1&gt;
+        &lt;/acrticle&gt;   
+    </pre>
+
+    <h1>列表：有序列表，无序列表，定义列表</h1>
+    <h4>有序列表</h4>
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <h4>无序列表</h4>
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h4>未定义样式列表</h4>
+    <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h4>内联样式列表</h4>
+    <ul class="list-inline">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h4>定义列表</h4>
+    <dl>
+        <dt>Desc 1</dt>
+        <dd>Item 1</dd>
+        <dt>Desc 2</dt>
+        <dd>Item 2</dd>
+    </dl>
+    <h4>水平的定义列表</h4>
+    <dl class="dl-horizontal">
+        <dt>Desc 1</dt>
+        <dd>Item 1</dd>
+        <dt>Desc 2</dt>
+        <dd>Item 2</dd>
+    </dl>
+
+    <h1>表格</h1>
+    <table class="table table-bordered table-hover table-condensed">
+        <caption>表格布局</caption>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>city</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="active">
+                <td>a</td>
+                <td>Shanghai</td>
+            </tr>
+            <tr class="success">
+                <td>b</td>
+                <td>Brijing</td>
+            </tr>
+            <tr class="warning">
+                <td>a</td>
+                <td>Shanghai</td>
+            </tr>
+            <tr class="danger">
+                <td>b</td>
+                <td>Brijing</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>表单</h1>
+    <h4>垂直基本表单</h4>
+    <form role="form">
+        <div class="form-group">
+            <label for="name">name:</label>
+            <input type="text" class="form-control" id="name" placeholder="please input your name">
+        </div>
+        <div class="form-group">
+            <label for="inputfile">input file:</label>
+            <input type="file" name="" id="inputfile">
+            <p class="help-block">this is block about help doc</p>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" name="">please hook
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">submit</button>
+    </form>
+
+    <h4>水平表单</h4>
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">名字:</label>
+            <div class="col-sm-10">
+                <input type="text" name="" class="form-control" id="firstname" placeholder="请输入名字">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="">请记住我
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">登录</button>
+            </div>
+        </div>
+    </form>
+
+    <h4>表单控件</h4>
+    <form role="form">
+        <div class="form-group">
+            <label for="name">输入框：</label>
+            <input type="text" class="form-control" placeholder="我是输入框">
+        </div>
+        <div class="form-group">
+            <label for="name">文本框：</label>
+            <textarea class="form-control" rows="3"></textarea> 
+        </div>
+
+        <label for="name">多选框：</label>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="" checked="">选项1
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" name="" value="">选项2
+            </label>
+        </div>
+
+        <label for="name">单选框：</label>
+        <div class="radio">
+            <label>
+                <input type="radio" name="radioButton" value="option1" id="" >raido1
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="radioButton" value="option2" id="" checked="">radio2
+            </label>
+        </div>
+
+        <label for="name">内联多选单选框：</label>
+        <div class="checkbox">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="" checked="">选项1
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" value="">选项2
+            </label>
+            <label class="checkbox-inline">
+                <input type="radio" name="radioButton" value="option1" id="" checked>raido1
+            </label>
+            <label class="checkbox-inline">
+                <input type="radio" name="radioButton" value="option2" id="" >radio2
+            </label>
+        </div>
+
+        <div>
+            <label for="name">下拉选择</label>
+            <select class="form-control">
+                <option>下拉选择1</option>
+                <option>下拉选择1</option>
+                <option>下拉选择1</option>
+                <option>下拉选择1</option>
+            </select>
+            <label for="name">下拉多选项</label>
+            <select multiple class="form-control">
+                <option>下拉选择1</option>
+                <option>下拉选择1</option>
+                <option>下拉选择1</option>
+                <option>下拉选择1</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="name">静态控件</label>
+            <div class="form-group">
+                <label class="col-sm-2 control-lable">Email:</label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">hu-feng@hotmail.com</p>
+                </div>
+                <label for="inputPassword" class="col-sm-2 control-label">密码</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="请输入密码">
+                </div>
+            </div>
+        </div>
+
+        <label for="name">表单控件大小</label>
+        <div class="form-group">
+            <input class="form-control input-lg" type="text" placeholder=".input-lg">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="默认输入">
+        </div>
+        <div class="form-group">
+            <input class="form-control input-sm" type="text" placeholder=".input-sm">
+        </div>
+        <div class="form-group">
+            <select class="form-control">
+              <option value="">默认选择</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select class="form-control input-sm">
+              <option value="">.input-sm</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+              <input type="text" class="form-control" placeholder=".col-lg-2">
+            </div>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" placeholder=".col-lg-3">
+            </div>
+            <div class="col-lg-5">
+              <input type="text" class="form-control" placeholder=".col-lg-4">
+            </div>
+        </div>
+        
+        <label for="name">帮助文档实例</label>
+        <input type="text" class="form-control" placeholder="text帮助说明">
+        <span class="help-block">一个较长的帮助文本块，超过一行，
+  需要扩展到下一行。本实例中的帮助文本总共有两行。</span>
+    </form>
+
+    <h1>各种按钮</h1>
+    <!-- 标准的按钮 -->
+    <button type="button" class="btn btn-default">默认按钮</button>
+    <!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+    <button type="button" class="btn btn-primary">原始按钮</button>
+    <!-- 表示一个成功的或积极的动作 -->
+    <button type="button" class="btn btn-success">成功按钮</button>
+    <!-- 信息警告消息的上下文按钮 -->
+    <button type="button" class="btn btn-info">信息按钮</button>
+    <!-- 表示应谨慎采取的动作 -->
+    <button type="button" class="btn btn-warning">警告按钮</button>
+    <!-- 表示一个危险的或潜在的负面动作 -->
+    <button type="button" class="btn btn-danger">危险按钮</button>
+    <!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+    <button type="button" class="btn btn-link">链接按钮</button>
+    <p>
+    <button type="button" class="btn btn-primary btn-lg active"> 大按钮</button>
+    <button type="button" class="btn btn-default active">默认按钮</button>
+    </p>
+    <p>
+    <button type="button" class="btn btn-primary btn-ms" disabled="disabled"> 小按钮</button>
+    <button type="button" class="btn btn-default" disabled="disabled">默认按钮</button>
+    </p>
+    <p>
+    <button type="button" class="btn btn-primary btn-xs"> 特别小按钮</button>
+    <button type="button" class="btn btn-default">默认按钮</button>
+    </p>
+    <p>
+    <button type="button" class="btn btn-primary btn-lg btn-block"> 块按钮</button>
+    <button type="button" class="btn btn-default btn-lg btn-block">默认按钮</button>
+    </p>
+
+    <h1>导航条</h1>
+    <div class="container">
+      <h2>标签页</h2>
+      <p>.nav-tabs 类用于创建导航标签:</p>
+      <ul class="nav nav-pills" role="tablist">
+        <li class=""><a href="#">首页</a></li>
+        <li class="active"><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">关于</a></li>
+      </ul>
+    </div>
+    <p>带有下拉菜单的胶囊</p>
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">SVN</a></li>
+        <li><a href="#">iOS</a></li>
+        <li><a href="#">VB.Net</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Java <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Swing</a></li>
+            <li class="divider"></li>
+            <li><a href="#">jMeter</a></li>
+            <li class="divider"></li>
+            <li><a href="#">EJB</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+          </ul>
+        </li>
+        <li><a href="#">PHP</a></li>
+      </ul>
+
+    <h1>标签</h1>
+    <h2>Example Heading <span class="label label-default">Label</span></h2>
+    <h3>Example Heading <span class="label label-default">Label</span></h3>
+    <h4>Example Heading <span class="label label-default">Label</span></h4>
+    <span class="label label-default">默认标签</span>
+    <span class="label label-primary">主要标签</span>
+    <span class="label label-success">成功标签</span>
+    <span class="label label-info">信息标签</span>
+    <span class="label label-warning">警告标签</span>
+    <span class="label label-danger">危险标签</span>
+    <div class="page-header">
+    <h1>页面标题实例
+        <small>子标题</small>
+    </h1>
+    </div>
+    <p>这是一个示例文本。这是一个示例文本。这是一个示例文本。这是一个示例文本。这是一个示例文本。</p>  
+
+    <h1>缩略图</h1>
+    <div class="row">
+    <div class="col-sm-6 col-md-3">
+         <div class="thumbnail">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/06/kittens.jpg" 
+             alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                        按钮
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button">
+                        按钮
+                    </a>
+                </p>
+            </div>
+         </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/06/kittens.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                        按钮
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button">
+                        按钮
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/06/kittens.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                        按钮
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button">
+                        按钮
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/06/kittens.jpg" 
+            alt="通用的占位符缩略图">
+            <div class="caption">
+                <h3>缩略图标签</h3>
+                <p>一些示例文本。一些示例文本。</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">
+                        按钮
+                    </a> 
+                    <a href="#" class="btn btn-default" role="button">
+                        按钮
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <h1>alert信息</h1>
+    <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            成功！很好地完成了提交。
+        </div>
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            信息！请注意这个信息。
+        </div>
+        <div class="alert alert-warning alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            警告！请不要提交。
+        </div>
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                &times;
+            </button>
+            错误！请进行一些更改。
+        </div>
+
+    <h1>多媒体对象</h1>
+    <div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="http://www.runoob.com/wp-content/uploads/2014/06/64.jpg"
+             alt="媒体对象">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">媒体标题</h4>
+        这是一些示例文本。这是一些示例文本。
+        这是一些示例文本。这是一些示例文本。
+        这是一些示例文本。这是一些示例文本。
+        这是一些示例文本。这是一些示例文本。
+        这是一些示例文本。这是一些示例文本。
+    </div>
+    </div>
+    <div class="media">
+        <a class="pull-left" href="#">
+            <img class="media-object" src="http://www.runoob.com/wp-content/uploads/2014/06/64.jpg"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">媒体标题</h4>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" src="http://www.runoob.com/wp-content/uploads/2014/06/64.jpg"
+                         alt="媒体对象">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">媒体标题</h4>
+                    这是一些示例文本。这是一些示例文本。
+                    这是一些示例文本。这是一些示例文本。
+                    这是一些示例文本。这是一些示例文本。
+                    这是一些示例文本。这是一些示例文本。
+                    这是一些示例文本。这是一些示例文本。
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <h1>自定义列表</h1>
+    <div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">
+            入门网站包
+        </h4>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            免费域名注册
+        </h4>
+        <p class="list-group-item-text">
+            您将通过网页进行免费域名注册。
+        </p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">
+            24*7 支持
+        </h4>
+        <p class="list-group-item-text">
+            我们提供 24*7 支持。
+        </p>
+    </a>
+    </div>
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">
+                商务网站包
+            </h4>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">
+                免费域名注册
+            </h4>
+            <p class="list-group-item-text">
+                您将通过网页进行免费域名注册。
+            </p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">24*7 支持</h4>
+            <p class="list-group-item-text">我们提供 24*7 支持。</p>
+        </a>
+    </div>
+
+    <h1>面板</h1>
+    <div>
+        <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题</h3>
+        </div>
+    <div class="panel-body">
+        这是一个基本的面板
+    </div>
+    <table class="table">
+        <th>产品</th><th>价格 </th>
+        <tr><td>产品 A</td><td>200</td></tr>
+        <tr><td>产品 B</td><td>400</td></tr>
+    </table>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题</h3>
+        </div>
+        <div class="panel-body">
+            这是一个基本的面板
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题</h3>
+        </div>
+        <div class="panel-body">
+            这是一个基本的面板
+        </div>
+    </div>
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题</h3>
+        </div>
+        <div class="panel-body">
+            这是一个基本的面板
+        </div>
+    </div>
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题</h3>
+        </div>
+        <div class="panel-body">
+            这是一个基本的面板
+        </div>
+    </div>
+    </div>
+
+    <h1>模态框</h1>
+    <!-- 按钮触发模态框 -->
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+                </div>
+                <div class="modal-body">在这里添加一些文本</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">提交更改</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+    <h1>tab切换</h1>
+    <ul id="myTab" class="nav nav-tabs">
+    <li class="active">
+        <a href="#home" data-toggle="tab">
+            W3Cschool Home
+        </a>
+    </li>
+    <li><a href="#ios" data-toggle="tab">iOS</a></li>
+    <li class="dropdown">
+        <a href="#" id="myTabDrop1" class="dropdown-toggle" 
+           data-toggle="dropdown">Java 
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+            <li><a href="#jmeter" tabindex="-1" data-toggle="tab">jmeter</a></li>
+            <li><a href="#ejb" tabindex="-1" data-toggle="tab">ejb</a></li>
+        </ul>
+    </li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+            <p>W3Cschoool菜鸟教程是一个提供最新的web技术站点，本站免费提供了建站相关的技术文档，帮助广大web技术爱好者快速入门并建立自己的网站。菜鸟先飞早入行——学的不仅是技术，更是梦想。</p>
+        </div>
+        <div class="tab-pane fade" id="ios">
+            <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple 
+                TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+        </div>
+        <div class="tab-pane fade" id="jmeter">
+            <p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+        </div>
+        <div class="tab-pane fade" id="ejb">
+            <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+            </p>
+        </div>
+    </div>
+
+    <h1>工具提示（Tooltip）插件 - 按钮</h1>
+    这是一个 <a href="#" class="tooltip-test" data-toggle="tooltip" title="默认的 Tooltip">默认的 Tooltip</a>.
+    这是一个 <a href="#" class="tooltip-test" data-toggle="tooltip" data-placement="left" title="左侧的 Tooltip">左侧的 Tooltip</a>.
+    这是一个 <a href="#" data-toggle="tooltip" data-placement="top" title="顶部的 Tooltip">顶部的 Tooltip</a>.
+    这是一个 <a href="#" data-toggle="tooltip" data-placement="bottom" title="底部的 Tooltip">底部的 Tooltip</a>.
+    这是一个 <a href="#" data-toggle="tooltip" data-placement="right" title="右侧的 Tooltip">右侧的 Tooltip</a><br>
+    <button type="button" class="btn btn-default" data-toggle="tooltip"  title="默认的 Tooltip"> 默认的 Tooltip</button>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="左侧的 Tooltip">左侧的 Tooltip
+    </button>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="顶部的 Tooltip">顶部的 Tooltip
+    </button>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="底部的 Tooltip">底部的 Tooltip
+    </button>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="右侧的 Tooltip">右侧的 Tooltip</button>
+    <script>
+        $(function () { $("[data-toggle='tooltip']").tooltip(); });
+    </script>
+
+    <h1>弹出框</h1>
+    <div class="container" style="padding: 100px 50px 10px;" >
+    <button type="button" class="btn btn-default" title="Popover title"  
+            data-container="body" data-toggle="popover" data-placement="left" 
+            data-content="左侧的 Popover 中的一些内容">
+        左侧的 Popover
+    </button>
+    <button type="button" class="btn btn-primary" title="Popover title"  
+            data-container="body" data-toggle="popover" data-placement="top" 
+            data-content="顶部的 Popover 中的一些内容">
+        顶部的 Popover
+    </button>
+    <button type="button" class="btn btn-success" title="Popover title"  
+            data-container="body" data-toggle="popover" data-placement="bottom" 
+            data-content="底部的 Popover 中的一些内容">
+        底部的 Popover
+    </button>
+    <button type="button" class="btn btn-warning" title="Popover title"  
+            data-container="body" data-toggle="popover" data-placement="right" 
+            data-content="右侧的 Popover 中的一些内容">
+        右侧的 Popover
+    </button>
+    </div>
+    <script>
+    $(function () { 
+        $("[data-toggle='popover']").popover();
+    });
+    </script>
+
+    <h1>警告信息</h1>
+    <h3>警告框（Alert）插件 alert('close') 方法</h3>
+    <div id="myAlert" class="alert alert-success">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>成功！</strong>结果是成功的。
+    </div>
+    <div id="myAlert" class="alert alert-warning">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>警告！</strong>您的网络连接有问题。
+    </div>
+    <script type="text/javascript">
+    $(function(){
+        $(".close").click(function(){
+            $(".alert").alert('close');
+        });
+    });  
+    </script>
+
+    <h1>点击每个按钮查看方法效果</h1>
+    <h4>演示 .button('toggle') 方法</h4>
+    <div id="myButtons1" class="bs-example">
+        <button type="button" class="btn btn-primary">原始</button>
+    </div>
+     
+    <h4>演示 .button('loading') 方法</h4>
+    <div id="myButtons2" class="bs-example">
+        <button type="button" class="btn btn-primary" 
+            data-loading-text="Loading...">原始
+        </button>
+    </div>
+     
+    <h4>演示 .button('reset') 方法</h4>
+    <div id="myButtons3" class="bs-example">
+        <button type="button" class="btn btn-primary" 
+            data-loading-text="Loading...">原始
+        </button>
+    </div>
+     
+    <h4>演示 .button(string) 方法</h4>
+    <button type="button" class="btn btn-primary" id="myButton4" 
+        data-complete-text="Loading finished">请点击我
+    </button>
+    <script>
+    $(function () {
+            $("#myButtons1 .btn").click(function(){
+                $(this).button('toggle');
+            });
+        });
+        $(function() { 
+            $("#myButtons2 .btn").click(function(){
+                $(this).button('loading').delay(1000).queue(function() {
+                });        
+            });
+        });   
+        $(function() { 
+            $("#myButtons3 .btn").click(function(){
+                $(this).button('loading').delay(1000).queue(function() {
+                    $(this).button('reset');
+                });        
+            });
+        });  
+       $(function() { 
+            $("#myButton4").click(function(){
+                $(this).button('loading').delay(1000).queue(function() {
+                    $(this).button('complete');
+                });        
+            });
+        });
+    </script>  
+
+    <h1>折叠样式</h1>
+    <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseOne">
+                    点击我进行展开，再次点击我进行折叠。第 1 部分--hide 方法
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred 
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice 
+                lomo.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseTwo">
+                    点击我进行展开，再次点击我进行折叠。第 2 部分--show 方法
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred 
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice 
+                lomo.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseThree">
+                    点击我进行展开，再次点击我进行折叠。第 3 部分--toggle 方法
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred 
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice 
+                lomo.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                   href="#collapseFour">
+                    点击我进行展开，再次点击我进行折叠。第 4 部分--options 方法
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred 
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice 
+                lomo.
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        $(function () { $('#collapseFour').collapse({
+            toggle: false
+        })});
+        $(function () { $('#collapseTwo').collapse('show')});
+        $(function () { $('#collapseThree').collapse('toggle')});
+        $(function () { $('#collapseOne').collapse('hide')});
+    </script>
+
+    <h1>轮播</h1>
+    <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" 
+            class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/07/slide1.png" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/07/slide2.png" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="http://www.runoob.com/wp-content/uploads/2014/07/slide3.png" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;</a>
+    <!-- 控制按钮 -->
+    <div style="text-align:center;">
+        <input type="button" class="btn start-slide" value="Start">
+        <input type="button" class="btn pause-slide" value="Pause">
+        <input type="button" class="btn prev-slide" value="Previous Slide">
+        <input type="button" class="btn next-slide" value="Next Slide">
+        <input type="button" class="btn slide-one" value="Slide 1">
+        <input type="button" class="btn slide-two" value="Slide 2">            
+        <input type="button" class="btn slide-three" value="Slide 3">
+    </div>
+    </div> 
+    <script>
+    $(function(){
+            // 初始化轮播
+            $(".start-slide").click(function(){
+                $("#myCarousel").carousel('cycle');
+            });
+            // 停止轮播
+            $(".pause-slide").click(function(){
+                $("#myCarousel").carousel('pause');
+            });
+            // 循环轮播到上一个项目
+            $(".prev-slide").click(function(){
+                $("#myCarousel").carousel('prev');
+            });
+            // 循环轮播到下一个项目
+            $(".next-slide").click(function(){
+                $("#myCarousel").carousel('next');
+            });
+            // 循环轮播到某个特定的帧 
+            $(".slide-one").click(function(){
+                $("#myCarousel").carousel(0);
+            });
+            $(".slide-two").click(function(){
+                $("#myCarousel").carousel(1);
+            });
+            $(".slide-three").click(function(){
+                $("#myCarousel").carousel(2);
+            });
+        });
+    </script>  
+
+    <h1>附加导航</h1>
+    <style>
+/* Custom Styles */
+    ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+    }
+</style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+<div class="container">
+   <div class="jumbotron">
+        <h1>Bootstrap Affix</h1>
+    </div>
+    <div class="row">
+        <!-- <div class="col-xs-3" id="myScrollspy">
+            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                <li class="active"><a href="#section-1">第一部分</a></li>
+                <li><a href="#section-2">第二部分</a></li>
+                <li><a href="#section-3">第三部分</a></li>
+                <li><a href="#section-4">第四部分</a></li>
+                <li><a href="#section-5">第五部分</a></li>
+            </ul>
+        </div> -->
+        <div class="col-xs-9">
+            <h2 id="section-1">第一部分</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.</p>
+            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
+            <hr>
+            <h2 id="section-2">第二部分</h2>
+            <p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus. Suspendisse ultrices placerat accumsan. Mauris quis dapibus orci. In dapibus velit blandit pharetra tincidunt. Quisque non sapien nec lacus condimentum facilisis ut iaculis enim. Sed viverra interdum bibendum. Donec ac sollicitudin dolor. Sed fringilla vitae lacus at rutrum. Phasellus congue vestibulum ligula sed consequat.</p>
+            <p>Vestibulum consectetur scelerisque lacus, ac fermentum lorem convallis sed. Nam odio tortor, dictum quis malesuada at, pellentesque vitae orci. Vivamus elementum, felis eu auctor lobortis, diam velit egestas lacus, quis fermentum metus ante quis urna. Sed at facilisis libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum bibendum blandit dolor. Nunc orci dolor, molestie nec nibh in, hendrerit tincidunt ante. Vivamus sem augue, hendrerit non sapien in, mollis ornare augue.</p>
+            <hr>
+            <h2 id="section-3">第三部分</h2>
+            <p>Integer pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien vel, porttitor bibendum enim. Donec sed nibh vitae lorem porttitor blandit in nec ante. Pellentesque vitae metus ipsum. Phasellus sed nunc ac sem malesuada condimentum. Etiam in aliquam lectus. Nam vel sapien diam. Donec pharetra id arcu eget blandit. Proin imperdiet mattis augue in porttitor. Quisque tempus enim id lobortis feugiat. Suspendisse tincidunt risus quis dolor fringilla blandit. Ut sed sapien at purus lacinia porttitor. Nullam iaculis, felis a pretium ornare, dolor nisl semper tortor, vel sagittis lacus est consequat eros. Sed id pretium nisl. Curabitur dolor nisl, laoreet vitae aliquam id, tincidunt sit amet mauris.</p>
+            <p>Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget ante rutrum adipiscing. Cras interdum ipsum mattis, tempus mauris vel, semper ipsum. Duis sed dolor ut enim lobortis pellentesque ultricies ac ligula. Pellentesque convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras ac pulvinar purus, ac viverra est. Suspendisse potenti. Integer pellentesque neque et elementum tempus. Curabitur bibendum in ligula ut rhoncus.</p>
+            <p>Quisque pharetra velit id velit iaculis pretium. Nullam a justo sed ligula porta semper eu quis enim. Pellentesque pellentesque, metus at facilisis hendrerit, lectus velit facilisis leo, quis volutpat turpis arcu quis enim. Nulla viverra lorem elementum interdum ultricies. Suspendisse accumsan quam nec ante mollis tempus. Morbi vel accumsan diam, eget convallis tellus. Suspendisse potenti.</p>
+            <hr>
+            <h2 id="section-4">第四部分</h2>
+            <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
+            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
+            <p>Phasellus fermentum, neque sit amet sodales tempor, enim ante interdum eros, eget luctus ipsum eros ut ligula. Nunc ornare erat quis faucibus molestie. Proin malesuada consequat commodo. Mauris iaculis, eros ut dapibus luctus, massa enim elementum purus, sit amet tristique purus purus nec felis. Morbi vestibulum sapien eget porta pulvinar. Nam at quam diam. Proin rhoncus, felis elementum accumsan dictum, felis nisi vestibulum tellus, et ultrices risus felis in orci. Quisque vestibulum sem nisl, vel congue leo dictum nec. Cras eget est at velit sagittis ullamcorper vel et lectus. In hac habitasse platea dictumst. Etiam interdum iaculis velit, vel sollicitudin lorem feugiat sit amet. Etiam luctus, quam sed sodales aliquam, lorem libero hendrerit urna, faucibus rhoncus massa nibh at felis. Curabitur ac tempus nulla, ut semper erat. Vivamus porta ullamcorper sem, ornare egestas mauris facilisis id.</p>
+            <p>Ut ut risus nisl. Fusce porttitor eros at magna luctus, non congue nulla eleifend. Aenean porttitor feugiat dolor sit amet facilisis. Pellentesque venenatis magna et risus commodo, a commodo turpis gravida. Nam mollis massa dapibus urna aliquet, quis iaculis elit sodales. Sed eget ornare orci, eu malesuada justo. Nunc lacus augue, dictum quis dui id, lacinia congue quam. Nulla sem sem, aliquam nec dolor ac, tempus convallis nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla suscipit convallis iaculis. Quisque eget commodo ligula. Praesent leo dui, facilisis quis eleifend in, aliquet vitae nunc. Suspendisse fermentum odio ac massa ultricies pellentesque. Fusce eu suscipit massa.</p>
+            <hr>
+            <h2 id="section-5">第五部分</h2>
+            <p>Nam eget purus nec est consectetur vehicula. Nullam ultrices nisl risus, in viverra libero egestas sit amet. Etiam porttitor dolor non eros pulvinar malesuada. Vestibulum sit amet est mollis nulla tempus aliquet. Praesent luctus hendrerit arcu non laoreet. Morbi consequat placerat magna, ac ornare odio sagittis sed. Donec vitae ullamcorper purus. Vivamus non metus ac justo porta volutpat.</p>
+            <p>Vivamus mattis accumsan erat, vel convallis risus pretium nec. Integer nunc nulla, viverra ut sem non, scelerisque vehicula arcu. Fusce bibendum convallis augue sit amet lobortis. Cras porta urna turpis, sodales lobortis purus adipiscing id. Maecenas ullamcorper, turpis suscipit pellentesque fringilla, massa lacus pulvinar mi, nec dignissim velit arcu eget purus. Nam at dapibus tellus, eget euismod nisl. Ut eget venenatis sapien. Vivamus vulputate varius mauris, vel varius nisl facilisis ac. Nulla aliquet justo a nibh ornare, eu congue neque rutrum.</p>
+            <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
+            <p>Morbi sed fermentum ipsum. Morbi a orci vulputate tortor ornare blandit a quis orci. Donec aliquam sodales gravida. In ut ullamcorper nisi, ac pretium velit. Vestibulum vitae lectus volutpat, consequat lorem sit amet, pulvinar tellus. In tincidunt vel leo eget pulvinar. Curabitur a eros non lacus malesuada aliquam. Praesent et tempus odio. Integer a quam nunc. In hac habitasse platea dictumst. Aliquam porta nibh nulla, et mattis turpis placerat eget. Pellentesque dui diam, pellentesque vel gravida id, accumsan eu magna. Sed a semper arcu, ut dignissim leo.</p>
+            <p>Sed vitae lobortis diam, id molestie magna. Aliquam consequat ipsum quis est dictum ultrices. Aenean nibh velit, fringilla in diam id, blandit hendrerit lacus. Donec vehicula rutrum tellus eget fermentum. Pellentesque ac erat et arcu ornare tincidunt. Aliquam erat volutpat. Vivamus lobortis urna quis gravida semper. In condimentum, est a faucibus luctus, mi dolor cursus mi, id vehicula arcu risus a nibh. Pellentesque blandit sapien lacus, vel vehicula nunc feugiat sit amet.</p>
+        </div>
+    </div>
+
+    <h1>网格</h1> 
+    <div class="row">
+        <p>
+            排序前
+        </p>
+        <div class="col-md-4" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         我在左边
+        </div>
+        <div class="col-md-8" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         我在右边
+        </div>
+    </div>
+    <br>
+	
+    <div class="row">
+        <p>
+            排序后
+        </p>
+        <div class="col-md-4 col-md-push-8" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1 1px #444;">
+         我在左边
+        </div>
+        <div class="col-md-8 col-md-pull-4" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         我在右边
+        </div>
+    </div>
+    </div>					
+   </body>
+   
+</html>
