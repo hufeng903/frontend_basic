@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Testpage</title>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.css" rel="stylesheet" />
+    <script src="./js/WritingPad.js"></script>
+    <script src="./js/jq-signature.js"></script>
+</head>
+<body style="background-color:#b6ff00">
+
+    <button class="btn btn-primary" type="button" style="position:relative">点击我</button>
+
+</body>
+</html>
+<script>
+
+    $(function () {
+
+        $(".btn,.btn-primary").click(function () {
+            var wp = new WritingPad();
+            //wp.init();
+        });
+    });
+
+</script>
